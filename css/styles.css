@@ -1,0 +1,29 @@
+h1{
+    margin:0 auto;
+    text-align: center;
+    font-family: 'Cormorant', serif;
+}
+
+
+.table{
+    margin:0 auto;
+    margin-top: 30px;
+   font-family: 'Cormorant', serif;
+    border:black 2px solid;
+    text-align: left;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.botones{
+    text-align: center;
+    font-size: 15px;
+    background: #c875dd;
+    border-radius: 7px;
+    padding: 5px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+.link{ color:purple }
+
