@@ -10,6 +10,33 @@ h1{
     margin:0 auto;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
+.body-imagen{
+    background-image: url("/img/Fondo\ \(2\).jpg");
+    background-size: 100px 100px;
+       background-size: 100% 100%;
+     
+}
+
+
+.botonIncio{
+
+    margin: auto;
+    width: 25%;
+    height: 20%;
+    border-radius: 5%;
+    background-color: #0db91ba6;
+    font-size: 30px;
+    color: azure;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+.botonIncio:hover{
+    background-color: #42bd4c75;
+    color: azure;
+}
+
 
 .botones{
     text-align: center;
@@ -23,3 +50,7 @@ h1{
 }
 .link{ color:purple;
 text-decoration: none; }
+
+.link:hover{
+    color: azure;
+}
