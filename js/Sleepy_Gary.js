@@ -1,19 +1,30 @@
-const URL_API="https://rickandmortyapi.com/api/character/324";
+const URL_API='https://rickandmortyapi.com/api/character/324';
 
-
-var contenido = document.querySelector('#contenido')
-function fetchRick(){
-    fetch(URL_API)
-    .then(res => res.json())
-    .then(data => {
-        console.log(data);
-        contenido.innerHTML=`
-        <img src= "${data.image}">
-        <p> Id: ${data.id} </p>
-        <p> Género ${data.gender} </p>
-        <p> Nombre: ${data.name} </p>
-        <p> Especie: ${data.species} </p>
-        `
-    })
-}
-fetchRick(1);
+fetch(URL_API)
+.then(respuesta => respuesta.json())
+.then(data =>{
+    
+    let elemento=document.getElementById("Sleepy_Gary");
+    console.log(data.name);
+    elemento.innerHTML =`
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <div class="cuerpo">
+    <div class="card">
+        <div class="card-image">
+            <img src='${data.image}'>
+        </div>
+        <div class="card-text">
+            <br>
+        <h2 id="nombre" >${data.name}</h2>
+        <h3 >Id</h3>
+        <p id="id_personaje">${data.id}</p>
+        <h3 >Gender</h3>
+        <p id="gender">${data.gender}</p>
+        <h3 >Species</h3>
+        <p id="specie">${data.spicies}</p>         
+        </div>  
+        </div>
+    </div>
+    `;
+})
+.catch(error=>console.log(error))
