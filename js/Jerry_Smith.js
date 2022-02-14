@@ -16,6 +16,8 @@ fetch(urlapir)
         <div class="card-text">
             <br>
         <h2 id="nombre" >${data.name}</h2>
+        <h3 >Id</h3>
+        <p id="id">${data.id}</p>
         <h3 >Gender</h3>
         <p id="gender">${data.gender}</p>
         <h3 >Species</h3>
