@@ -21,4 +21,5 @@ h1{
     color: white;
     cursor: pointer;
 }
-.link{ color:purple }
+.link{ color:purple;
+text-decoration: none; }
