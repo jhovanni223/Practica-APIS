@@ -21,7 +21,7 @@ fetch(URL_API)
         <h3 >Gender</h3>
         <p id="gender">${data.gender}</p>
         <h3 >Species</h3>
-        <p id="specie">${data.spicies}</p>         
+        <p id="specie">${data.spicies}</p>   
         </div>  
         </div>
     </div>
