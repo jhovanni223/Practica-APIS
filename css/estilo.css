@@ -42,10 +42,7 @@ overflow: hidden;
 }
 .card-image {
   grid-area: image;
-  background-color: rgb(64, 230, 241);
-  height: 230px;
-  
-  }
+}
   .card-text {
   grid-area: text;
   }
