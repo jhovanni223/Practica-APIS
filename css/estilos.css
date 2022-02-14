@@ -42,10 +42,7 @@ overflow: hidden;
 }
 .card-image {
   grid-area: image;
-
-  background-color: rgb(66, 158, 233);
   background-color: rgb(64, 230, 241);
-
   height: 230px;
   
   }
@@ -68,7 +65,6 @@ overflow: hidden;
     .card-text {
       grid-area: text;
       margin: 5px;
-      font-family:'Times New Roman', Times, serif;
       }
       .card-text .date {
       color: rgb(255, 7, 110);
@@ -120,5 +116,4 @@ overflow: hidden;
             cursor: puntero;
             margin: 30px;
             }
-
             
