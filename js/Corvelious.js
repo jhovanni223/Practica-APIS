@@ -7,11 +7,13 @@ fetch(urlapir)
     let elemento=document.getElementById("Corvelious");
     console.log(data.name);
     elemento.innerHTML =`
-    <p>${data.id}</p>
-    <p>${data.name}</p>
+    <h1>
     <img src='${data.image}'/>
-    <p>${data.gender}</p>
-    <p>${data.spicies}</p>
+    <p>${data.name}</p></h1>
+    <h3><p>Id: ${data.id}</p>
+   
+    <p>Genero:${data.gender}</p>
+    <p>Especie: ${data.species}</p></h3>
     `;
 })
 .catch(error=>console.log(error))
