@@ -1,10 +1,10 @@
-const urlapir='https://rickandmortyapi.com/api/character/4';
+const urlapir='https://rickandmortyapi.com/api/character/180';
 
 fetch(urlapir)
 .then(respuesta => respuesta.json())
 .then(data =>{
     
-    let elemento=document.getElementById("Beth");
+    let elemento=document.getElementById("Jessica");
     console.log(data.name);
     elemento.innerHTML =`
     <link rel="stylesheet" href="../../css/estilo.css">
