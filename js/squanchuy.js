@@ -11,7 +11,7 @@ fetch(urlapir)
     <p>${data.name}</p>
     <img src='${data.image}'/>
     <p>${data.gender}</p>
-    <p>${data.spicies}</p>
+    <p>${data.species}</p>
     `;
 })
 .catch(error=>console.log(error))
