@@ -1,10 +1,10 @@
-const URL_API='https://rickandmortyapi.com/api/character/150';
+const URL_API='https://rickandmortyapi.com/api/character/331';
 
 fetch(URL_API)
 .then(respuesta => respuesta.json())
 .then(data =>{
     
-    let elemento=document.getElementById("Corvelious");
+    let elemento=document.getElementById("personajeC");
     console.log(data.name);
     elemento.innerHTML =`
     <link rel="stylesheet" href="../../css/styles.css">
