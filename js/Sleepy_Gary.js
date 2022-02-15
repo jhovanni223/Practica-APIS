@@ -7,7 +7,7 @@ fetch(URL_API)
     let elemento=document.getElementById("Sleepy_Gary");
     console.log(data.name);
     elemento.innerHTML =`
-    <link rel="stylesheet" href="../../css/estilo.css">
+    <link rel="stylesheet" href="../../css/styles.css">
     <div class="cuerpo">
     <div class="card">
         <div class="card-image">
