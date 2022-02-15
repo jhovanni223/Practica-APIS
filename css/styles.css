@@ -1,13 +1,13 @@
-h1{
-    margin:0 auto;
+h1 {
+    margin: 0 auto;
     text-align: center;
     font-family: 'Cormorant', serif;
 }
 
-.table{
+.table {
     height: 70%;
     width: 50%;
-    margin:0 auto;
+    margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .body-imagen{
@@ -38,7 +38,7 @@ h1{
 }
 
 
-.botones{
+.botones {
     text-align: center;
     font-size: 15px;
     background: #c875dd;
