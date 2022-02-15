@@ -1,10 +1,10 @@
-const urlapir='https://rickandmortyapi.com/api/character/5';
+const urlapir='https://rickandmortyapi.com/api/character/180';
 
 fetch(urlapir)
 .then(respuesta => respuesta.json())
 .then(data =>{
     
-    let elemento=document.getElementById("Jerry");
+    let elemento=document.getElementById("Jessica");
     console.log(data.name);
     elemento.innerHTML =`
     <link rel="stylesheet" href="../../css/styles.css">
@@ -19,7 +19,7 @@ fetch(urlapir)
         <h3 >Gender</h3>
         <p id="gender">${data.gender}</p>
         <h3 >Species</h3>
-        <p id="specie">${data.spicies}</p>         
+        <p id="specie">${data.species}</p>         
         </div>  
         </div>
     </div>
