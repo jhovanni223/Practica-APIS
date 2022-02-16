@@ -23,7 +23,7 @@ fetch(urlapir)
 
         <p id="gender">${data.gender}</p>
         <h3 >Species</h3>
-        <p id="specie">${data.spicies}</p>         
+        <p id="specie">${data.species}</p>         
         </div>  
         </div>
     </div>
