@@ -3,8 +3,9 @@ h1 {
     text-align: center;
     font-family: 'Cormorant', serif;
 }
-.titulo{
-  color: azure;
+
+.titulo {
+    color: azure;
 }
 
 .table {
@@ -13,16 +14,14 @@ h1 {
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-.body-imagen{
-    background-image: url("/img/Fondo\ \(2\).jpg");
+
+.body-imagen {
+    background-image: url("../img/Fondo\ \(2\).jpg");
     background-size: 100px 100px;
-       background-size: 100% 100%;
-     
+    background-size: 100% 100%;
 }
 
-
-.botonIncio{
-
+.botonIncio {
     margin: auto;
     width: 25%;
     height: 20%;
@@ -31,15 +30,15 @@ h1 {
     font-size: 30px;
     color: azure;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
 }
-.botonIncio:hover{
+
+.botonIncio:hover {
     background-color: #42bd4c75;
     color: azure;
 }
-
 
 .botones {
     text-align: center;
@@ -53,27 +52,30 @@ h1 {
     text-decoration: none;
 }
 
-.botones:hover{
+.botones:hover {
     background-color: #c875dd86;
     color: azure;
 }
-.link{ color:purple;
-text-decoration: none; }
 
-.link:hover{
+.link {
+    color: purple;
+    text-decoration: none;
+}
+
+.link:hover {
     color: azure;
 }
 
-body{
+body {
     background-color: black;
-  }
-  .cuerpo{
+}
+
+.cuerpo {
     margin-left: 550px;
     margin-top: 100px;
-    
-  
-  }
-  .card {
+}
+
+.card {
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 210px 210px 80px;
@@ -84,103 +86,95 @@ body{
     text-align: center;
     width: 300px;
     margin-top: -70px;
-    
-    
-  
-  }
+}
 
-  
-  img{
-  width: 200px;
-  height: 200px;
-  margin-top: 10px;
-  border-radius: 100px;
-  overflow: hidden;
-  }
-  
-  
-  .card:hover {
-    -webkit-transform:scale(1.1);transform:scale(1.1);}
-    
-  .icono{
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.icono {
     width: 12px;
     height: 12px;
     margin-top: 3px;
-  }
-  .card-image {
+}
+
+.card-image {
     grid-area: image;
-
     background-color: rgb(64, 230, 241);
-  
     height: 230px;
-    
-    }
-    .card-text {
+}
+
+.card-text {
     grid-area: text;
-    }
-    .card-stats {
-    grid-area: stats; 
-    
-    }
-    .card-image {
-      grid-area: image;
-      
-      border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-      background-size: cover;
-       
-      }
-  
-      .card-text {
-        grid-area: text;
-        margin: 5px;
-        }
+}
 
-        .card-text p {
-        color: rgb(24, 23, 23);
-        font-size:15px;
-        font-weight: 300;
-        font-family: 'Times New Roman', Times, serif;
-  
-        }
-        .card-text h2 {
-        margin-top:0px;
-        font-size:28px;
-        }
-  .regresar{
-      width: 50px;
-      height: 40px;
-  }
-        .card-stats {
-          grid-area: stats; 
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: 1fr;
-          border-bottom-left-radius: 15px;
-          border-bottom-right-radius: 15px;
-          background: rgba(14, 82, 124, 0.562);
-          margin-top: 10px;
-         
-  
-          }
-          .card-stats .stat {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            color: white;
-            padding:10px;
-            }
-  
-            .card:hover {
-            transform: escala ( 1.15 ) ;
-              
-              }
-              .card {
-              
-              transition:0 .5s facilidad;
-              cursor: puntero;
-           
-              }
+.card-stats {
+    grid-area: stats;
+}
 
-             
+.card-image {
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 5px;
+}
+
+.card-text p {
+    color: rgb(24, 23, 23);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-text h2 {
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.regresar {
+    width: 50px;
+    height: 40px;
+}
+
+.card-stats {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgba(14, 82, 124, 0.562);
+    margin-top: 10px;
+}
+
+.card-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: escala ( 1.15);
+}
+
+.card {
+    transition: 0 .5s facilidad;
+    cursor: puntero;
+}
