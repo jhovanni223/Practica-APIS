@@ -1,13 +1,13 @@
-const urlapir='https://rickandmortyapi.com/api/character/5';
+const urlapir = 'https://rickandmortyapi.com/api/character/5';
 
 fetch(urlapir)
-.then(respuesta => respuesta.json())
-.then(data =>{
-    
-    let elemento=document.getElementById("Jerry");
-    console.log(data.name);
-    elemento.innerHTML =`
-    <link rel="stylesheet" href="../../css/estilo.css">
+    .then(respuesta => respuesta.json())
+    .then(data => {
+
+        let elemento = document.getElementById("Jerry");
+        console.log(data.name);
+        elemento.innerHTML = `
+    <link rel="stylesheet" href="../../css/styles.css">
     <div class="cuerpo">
     <div class="card">
         <div class="card-image">
@@ -19,10 +19,10 @@ fetch(urlapir)
         <h3 >Gender</h3>
         <p id="gender">${data.gender}</p>
         <h3 >Species</h3>
-        <p id="specie">${data.spicies}</p>         
+        <p id="specie">${data.species}</p>        
         </div>  
         </div>
     </div>
     `;
-})
-.catch(error=>console.log(error))
+    })
+    .catch(error => console.log(error))
